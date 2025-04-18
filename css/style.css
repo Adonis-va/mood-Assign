@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+}
+header {
+  text-align: center;
+}
+h1 {
+  font-size: 4em;
+}
+main {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  background-color: lightgrey;
+  transition: background-color 0.5s ease-in-out;
+
+}
+#container {
+  text-align: center;
+}
+
+#happy-btn, #sad-btn, #neutral-btn {
+  padding: 12px 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+button {
+  border-radius: 20px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 10px #7e7e7e;
+}
+button:hover {
+  background-color: #000;
+  color: #fff;
+  font-weight: 700;
+  transition: 0.4s;
+}
