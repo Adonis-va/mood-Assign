@@ -10,7 +10,7 @@ happyButton.addEventListener("click", () => {
   document.body.style.backgroundColor = "lightyellow";
   moodTitle.textContent = "Happiness!";
   moodText.textContent = "Sunshine and smiles everywhere!";
-  moodImage.src = "/images/happymood.jpg";
+  moodImage.src = "images/happymood.jpg";
   moodImage.alt = "Image representing happiness";
   moodImage.style.display = "block"; 
 });
@@ -20,7 +20,7 @@ neutralButton.addEventListener("click", () => {
   document.body.style.backgroundColor = "lightgrey";
   moodTitle.textContent = "Neutral, not sad and not happy!";
   moodText.textContent = "The Earth is a planet.";
-  moodImage.src = "/images/neutralmood.jpg";
+  moodImage.src = "images/neutralmood.jpg";
   moodImage.alt = "Image representing neutral mood";
   moodImage.style.display = "block"; 
 });
@@ -30,7 +30,7 @@ sadButton.addEventListener("click", () => {
   document.body.style.backgroundColor = "lightblue";
   moodTitle.textContent = "Sadness...";
   moodText.textContent = "Raindrops and cloudy skies.";
-  moodImage.src = "/images/sadmood.jpg";
+  moodImage.src = "images/sadmood.jpg";
   moodImage.alt = "Image representing sadness";
   moodImage.style.display = "block"; 
 });
